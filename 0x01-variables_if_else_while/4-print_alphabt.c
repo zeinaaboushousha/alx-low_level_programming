@@ -12,6 +12,8 @@ if (alphabet != 'q' && alphabet != 'e')
 {
 putchar(alphabet);
 }
+alphabet++;
+}
 putchar('\n');
 return (0);
 }
