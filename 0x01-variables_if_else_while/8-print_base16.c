@@ -17,6 +17,6 @@ while (letters <= 'f')
 putchar(letters);
 letters++;
 }
-putchar('\a');
+putchar('\n');
 return (0);
 }
