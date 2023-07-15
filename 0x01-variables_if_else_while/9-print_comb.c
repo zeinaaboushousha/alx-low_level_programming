@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - print numbers seperated by commas & space
-* Return: (0)
-*/
+ * main - print numbers seperated by commas & space
+ * Return: (0)
+ */
 int main(void)
 {
 int numbers = '0';
@@ -13,6 +13,8 @@ if (numbers != 8)
 {
 putchar(',');
 putchar(' ');
+}
+numbers++;
 }
 putchar('\n');
 return (0);
