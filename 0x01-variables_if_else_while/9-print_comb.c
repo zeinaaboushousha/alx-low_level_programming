@@ -9,7 +9,7 @@ int numbers = '0';
 while (numbers <= '9')
 {
 putchar(numbers);
-if (numbers != 8)
+if (numbers <= '8')
 {
 putchar(',');
 putchar(' ');
